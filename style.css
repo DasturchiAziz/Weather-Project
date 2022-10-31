@@ -6,7 +6,8 @@ body {
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
   height: 94.7vh;
-  position: relative;
+  width: 100%;
+
 }
 
 .container {
@@ -58,14 +59,196 @@ body {
   font-weight: bold;
 }
 .link{
-  text-align: center;
-  position: absolute;
-  top: 820px;
-  left: 80px;
+  position: relative;
+}
+.small{
+ margin-top: 200px;
 }
 .link a {
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   color: black;
+  align-self: end;
+
+}
+@media only screen and (max-width: 1024px){
+  .card {
+    background: url('jpg/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-position: center ;
+    margin-top: 100px;
+    position: relative;
+    right: 62px;
+    width: 500px;
+    height: 250px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+   } 
+   #details {
+    position: relative;
+    bottom: 30px;
+}
+}
+@media only screen and (max-width: 912px){
+  body{
+    width: 100%;
+    height: 96.6vh;
+  }
+
+  .link{
+    position: absolute;
+    top: 1200px;
+    left: 33px;
+    font-size: 22px;
+  }
+  .clear{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  .message{
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 768px){
+  body{
+    width: 100%;
+    height: 96.8vh;
+  }
+  
+  .message{
+    width: 350px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+.card {
+  background: url('jpg/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+  background-position: center ;
+  margin-top: 100px;
+  position: relative;
+  right: 62px;
+  width: 500px;
+  height: 250px;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+ } 
+#details {
+    position: relative;
+    bottom: 30px;
+}
+.link{
+  position: absolute;
+  top: 930px;
+  left: 60px;
+  font-size: 18px;
+}
+
+
+}
+@media only screen and (max-width: 545px){
+  .card {
+    background: url('jpg/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-position: center ;
+    margin-top: 100px;
+    position: relative;
+    right: 12px;
+    width: 400px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+   } 
+   .clear{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  #details {
+    position: relative;
+    bottom: 40px;
+}
+}
+@media only screen and (max-width: 375px){
+  body{
+    width: 100%;
+    height: 100vh;
+  }
+  .card {
+    background: url('jpg/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-position: center ;
+    margin-top: 100px;
+    position: relative;
+    left: 10px;
+    width: 330px;
+    height: 180px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+   } 
+   #details {
+    position: relative;
+    bottom: 48px;
+}
+}
+@media only screen and (max-width: 360px){
+  .card {
+    background: url('jpg/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-position: center ;
+    margin-top: 100px;
+    position: relative;
+    left: 3px;
+    width: 330px;
+    height: 180px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+   } 
+}
+@media only screen and (max-width: 280px){
+  .card {
+    background: url('jpg/sean-oulashin-KMn4VEeEPR8-unsplash.jpg');
+    background-position: center ;
+    margin-top: 100px;
+    position: relative;
+    width: 250px;
+    height: 170px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+   } 
+   body{
+    width: 100%;
+    height: 122vh;
+  }
+  .message{
+    width: auto;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .clear{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  .temp{
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    bottom: 5px;
+  }
+  #details {
+    position: relative;
+    bottom: 50px;
+}
 }

@@ -20,8 +20,8 @@ const UpdateUi = (weather)=>{
    <h5 class="mb-3">${weather.name},${weather.sys.country}</h5>
    <p class="mb-3 clear">${weather.weather[0].main}</p>
    <div class="display-4 mb-3">
-     <span>${Math.round(weather.main.temp)}</span>
-     <span>&deg;C</span>
+     <span class="temp">${Math.round(weather.main.temp)}</span>
+     <span class="temp">&deg;C</span>
    </div>
    `
 
