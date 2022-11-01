@@ -3,6 +3,8 @@ const card = document.getElementById('card')
 const details = document.getElementById('details')
 const weatherIcon = document.getElementById('weather-icon')
 const overlay = document.getElementById('overlay')
+const blur = document.getElementById('blur')
+const btn =  document.getElementById('btn')
 
 changeLocation.city.focus()
 
