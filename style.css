@@ -163,7 +163,7 @@ body {
     position: relative;
     right: 12px;
     width: 400px;
-    height: 200px;
+    height: 220px;
     color: rgb(0, 0, 0);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -176,7 +176,7 @@ body {
   }
   #details {
     position: relative;
-    bottom: 40px;
+    bottom: 45px;
 }
 }
 @media only screen and (max-width: 375px){
@@ -191,7 +191,7 @@ body {
     position: relative;
     left: 10px;
     width: 330px;
-    height: 190px;
+    height: 195px;
     color: rgb(0, 0, 0);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -213,7 +213,7 @@ body {
     position: relative;
     left: 3px;
     width: 330px;
-    height: 180px;
+    height: 195px;
     color: rgb(0, 0, 0);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
