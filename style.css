@@ -191,7 +191,7 @@ body {
     position: relative;
     left: 10px;
     width: 330px;
-    height: 180px;
+    height: 190px;
     color: rgb(0, 0, 0);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -200,6 +200,9 @@ body {
    #details {
     position: relative;
     bottom: 48px;
+}
+.text-city{
+  font-size: 17px;
 }
 }
 @media only screen and (max-width: 360px){
